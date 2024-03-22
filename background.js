@@ -27,7 +27,7 @@ chrome.webRequest.onBeforeSendHeaders.addListener(
             // Your user agent modification logic
             for (var i = 0; i < details.requestHeaders.length; ++i) {
                 if (details.requestHeaders[i].name === 'User-Agent') {
-                    details.requestHeaders[i].value = 'Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 DMOST/2.0.0 (; LGE; webOSTV; WEBOS6.3.2 03.34.95; W6_lm21a;)';
+                    details.requestHeaders[i].value = 'Mozilla/5.0 (CrKey armv7l 1.10.41117) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.0 Safari/537.36';
                     break;
                 }
             }
